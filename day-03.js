@@ -25,7 +25,7 @@ saleHotdogs(3);
 // https://www.codewars.com/kata/572059afc2f4612825000d8a/train/javascript
 
 function howManydays(month){
-  var days;
+  let days;
   switch (month){
     
         case 4: case 6: case 9: case 11: 
