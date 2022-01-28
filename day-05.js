@@ -22,4 +22,16 @@ return ("£" + salary);
 }
 bonusTime(1200, true);
 
-// 
+// https://www.codewars.com/kata/5a58d889880385c2f40000aa/train/javascript
+
+function automorphic(n) {
+  let a = Math.pow(n, 2);
+  let res = a.toString();
+
+  if (res[res.length - n.length] === n) {
+    return "Automorphic";
+  } else {
+    return "Not!!";
+  }
+}
+automorphic(6);
