@@ -24,14 +24,16 @@ bonusTime(1200, true);
 
 // https://www.codewars.com/kata/5a58d889880385c2f40000aa/train/javascript
 
-function automorphic(n) {
-  let a = Math.pow(n, 2);
-  let res = a.toString();
+automorphic(7);
 
-  if (res[res.length - n.length] === n) {
+function automorphic(n) {
+  const a = Math.pow(n, 2);
+  const res = a.toString();
+  const b = n.toString();
+
+  if (res[res.length - b.length] === b) {
     return "Automorphic";
   } else {
     return "Not!!";
   }
 }
-automorphic(6);
