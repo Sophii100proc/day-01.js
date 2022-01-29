@@ -17,3 +17,11 @@ function whatNumberIsIt(n) {
     return "Input number is xxx";
   }
 }
+
+// https://www.codewars.com/kata/57238ceaef9008adc7000603/train/javascript
+
+function colorOf(r, g, b) {
+  return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+
+// https://www.codewars.com/kata/57256064856584bc47000611/train/javascript
