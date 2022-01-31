@@ -24,4 +24,17 @@ function colorOf(r, g, b) {
   return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
 }
 
-// https://www.codewars.com/kata/57256064856584bc47000611/train/javascript
+// https://www.codewars.com/kata/57256064856584bc47000611/train/javascript кодворс не пропускає(
+
+function howManySmaller(arr, n) {
+  arr.forEach((el) => console.log(el.toFixed(2)));
+
+  for (let i = 0; i < arr.length; i++) {
+    if (+arr[i] < n) {
+      
+    }
+return i;
+  }
+}
+
+howManySmaller([1.27635, 3.235, 23.4568], 2);
