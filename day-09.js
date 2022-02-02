@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/57274562c8dcebe77e001012/train/javascript - не можу зробити універмальну(
+// https://www.codewars.com/kata/57274562c8dcebe77e001012/train/javascript - не можу зробити універcальною(
 
 function cutIt(arr) {
     let strings = arr.filter( x => typeof x === "string" )
@@ -21,4 +21,5 @@ return str.indexOf(c);
 }
 firstToLast("hello sophia","p");
 
-// https://www.codewars.com/kata/57280481e8118511f7000ffa/train/javascript
+// https://www.codewars.com/kata/57280481e8118511f7000ffa/train/javascript - ще ковиряюся
+
