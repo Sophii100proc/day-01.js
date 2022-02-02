@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/57274562c8dcebe77e001012/train/javascript - не можу зробити універcальною(
+// https://www.codewars.com/kata/57274562c8dcebe77e001012/train/javascript 
 
 function cutIt(arr) {
     let strings = arr.filter( x => typeof x === "string" )
