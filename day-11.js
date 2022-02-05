@@ -16,7 +16,7 @@ return "true"
 }
 }
 
-// https://www.codewars.com/kata/5609fd5b44e602b2ff00003a/train/javascript
+// https://www.codewars.com/kata/5609fd5b44e602b2ff00003a/train/javascript - частквого виконала
 
 function process2Arrays(arr1, arr2) {
   arr1 = [3, 5, 7, 2, 1, 9];
