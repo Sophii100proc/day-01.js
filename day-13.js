@@ -2,10 +2,10 @@
 
 
 function match(candidate, job) {
-
+let income = (candidate.minSalary - (candidate.minSalary / 10))
   if (candidate.minSalary === "" && job.maxSalary === "") {
     return "Error";
-  } else if (candidate.minSalary <= job.maxSalary) {
+  } else if (income <= job.maxSalary) {
     return true;
   } else {
     return false;
