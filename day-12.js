@@ -11,11 +11,11 @@ let result = b.map((el) => {
 return (result);
 }
 
-// https://www.codewars.com/kata/57f75cc397d62fc93d000059/train/javascript
+// https://www.codewars.com/kata/57f75cc397d62fc93d000059/train/javascript - заплуталася в кінці(
 
 
 function calc() {
-  const a = "abd";
+  const a = "abddccs";
   const b = a.split("");
 
   let result = b.map((el) => {
@@ -27,10 +27,10 @@ function calc() {
   let total2 = 0;
 
   for (let i = 0; i < c.length; i++) {
-    if (c[i] !== "7") {
-      total1 + i;
+    if (c[i] !== 7) {
+      total1 += i;
     } else if (c[i] === 7) {
-      total2 + i;
+      total2 += i;
     }
   }
 }
