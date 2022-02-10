@@ -24,4 +24,4 @@ function loopArr(arr, direction, steps) {
 }
 loopArr([2, 4, 6, 7, 8, 9], "right", 2);
 
-//
+//https://www.codewars.com/kata/572af273a3af3836660014a1/train/javascript - роблю
