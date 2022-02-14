@@ -7,3 +7,16 @@
     return contA === contB ? b - a : contA - contB;
     })};
 
+
+//https://www.codewars.com/kata/572fdeb4380bb703fc00002c/train/javascript
+
+function isolateIt(arr) {
+  return arr.map((result) => {
+    const a = Math.floor(result.length / 2);
+    const b = result.split("");
+    b.splice(a, 0, "|");
+    const res = result.split("");
+    res.splice(a, 1, "|");
+    return result.length % 2 ? res.join("") : b.join("");
+  });
+}
