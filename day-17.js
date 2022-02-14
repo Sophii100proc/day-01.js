@@ -5,8 +5,6 @@ function bigToSmall(arr) {
   let result = a.sort((a, b) => b - a).join(">");
   return result;
 }
-bigToSmall([
-  [3, 5, 6, 4],
-  [4, 6, 3, 5],
-]);
+
+
 
